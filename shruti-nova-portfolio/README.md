@@ -1,4 +1,4 @@
-# Shruti Kusnale — Nova-inspired Portfolio
+# Shruti Kusnale 
 
 A responsive, single-page React + Vite portfolio rebuilt from scratch with a visual direction based on the Nova Astro reference: warm off-white canvas, charcoal typography, muted sand accents, editorial spacing, organic hero image mask, large project imagery, numbered service cards, FAQ accordion and a resume-focused contact section.
 
