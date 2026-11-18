@@ -160,20 +160,7 @@ function Skills() {
   );
 }
 
-function FAQ() {
-  const [active, setActive] = useState(0);
-  return (
-    <section className="section-wrap section-block faq-section">
-      <div className="section-kicker"><span>06 / A FEW ANSWERS</span><span>GOOD TO KNOW</span></div>
-      <div className="faq-layout"><div><h2>Some things<br/>you might <em>wonder.</em></h2><p>A few quick details about what I do and how to get in touch.</p></div>
-        <div className="faq-list">{faqs.map((faq, i) => <div className={`faq-item ${active === i ? "expanded" : ""}`} key={faq.q}>
-          <button onClick={() => setActive(active === i ? -1 : i)} aria-expanded={active === i}><span>{faq.q}</span><ChevronDown size={19}/></button>
-          {active === i && <p>{faq.a}</p>}
-        </div>)}</div>
-      </div>
-    </section>
-  );
-}
+
 
 function Reviews() {
   return (

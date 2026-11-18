@@ -101,6 +101,13 @@ export const journey = [
     description: ""
   },
   {
+    type: "EXPERIENCE",
+    title: "Python Developer Internship",
+    place: "Pune - Remote",
+    year: "2025",
+    description: "Internship - training."
+  },
+  {
     type: "CERTIFICATION",
     title: "Java Developer",
     place: "Training at JSpiders",
